@@ -1,0 +1,15 @@
+html, body {
+  color: white;
+  background: black;
+}
+h2 {
+  font-family: monospace;
+  font-weight: bold;
+}
+p {
+  font-family: arial;
+}
+div {
+  width: 100%;
+  word-wrap: break-word;
+}
