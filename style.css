@@ -13,3 +13,18 @@ div {
   width: 100%;
   word-wrap: break-word;
 }
+img {
+  float: inherit;
+  height: auto;
+  width: auto;
+}
+video {
+  float: inherit;
+  height: 320px;
+  width: 240px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
