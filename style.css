@@ -16,7 +16,7 @@ div {
 img {
   float: inherit;
   height: auto;
-  width: auto;
+  width: 240px;
 }
 video {
   float: inherit;
