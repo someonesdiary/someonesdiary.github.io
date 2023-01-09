@@ -23,6 +23,20 @@ video {
   height: auto;
   width: 200px;
 }
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* mobile */
 @media only screen and (max-width: 600px) {
   body {
     font-size: 12px;
