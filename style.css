@@ -23,6 +23,10 @@ video {
   height: auto;
   width: 200px;
 }
+.bday {
+  font-weight: 900;
+  color: #458588;
+}
 /* scroll bar */
 ::-webkit-scrollbar {
   width: 15px;
