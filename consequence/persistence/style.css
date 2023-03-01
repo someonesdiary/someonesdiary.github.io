@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+body, html {
+        height: 100%;
+}
+body {
+        overflow: hidden;
+        background-color: black;
+}
+h1 {
+        text-align: center;
+}
+section {
+        font-family: Arial, Helvetica, sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 80%;
+        padding: 30px; 
+        position: absolute;
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        text-align: center;
+}
+#clock {
+        font-weight: 600;
+        margin-top: -1px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 2;
+        width: 100%;
+        text-align: center;
+        top: 5%;
+        left: 5%;
+        transform: translate(-5%, -5%);
+        color: white;
+        font-size: 50px;
+        position: absolute;
+}
+.bg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/horiz.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+}
+@media screen and (max-width: 900px) {
+        #clock {
+                margin-top: 20px;
+                font-size: 35px;
+                font-weight: bold;
+        }
+        section {
+                margin-top: 15px;
+                padding: 5px;
+                width: 95%;
+        }
+}
+@media screen and (max-width: 700px) {
+        .bg {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/vert.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+        }
+        #clock {
+                margin-top: -10px;
+                width: 100%;
+                font-size: 25px;
+        }
+        section {
+                margin-top: 30px;
+                padding: 10px;
+                text-align: left;
+                width: 95%;
+        }
+        body {
+                font-size: 13px;
+                overflow: auto;
+        }
+
+}
