@@ -1,0 +1,23 @@
+html, body {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+a {
+    text-decoration: none;
+    color: #ebdbb2;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #ebdbb2;
+  }
+  footer {
+    background-color: #28282888;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+  }
