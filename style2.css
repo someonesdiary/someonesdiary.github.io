@@ -20,6 +20,16 @@ a:hover {
 a:visited {
   color: #ebdbb2;
 }
+img {
+  float: inherit;
+  height: auto;
+  width: 240px;
+}
+video {
+  float: inherit;
+  height: auto;
+  width: 200px;
+}
 footer {
   background-color: #28282888;
   position: sticky;
