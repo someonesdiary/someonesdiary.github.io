@@ -1,3 +1,61 @@
 body {
-
+    scroll-behavior: smooth;
+    background-image: url(../img/bg-hor.jpg); /* add after filling the screen linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)), */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+}
+footer {
+    text-align: center;
+    width: auto;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* mobile */
+@media only screen and (max-width: 920px) {
+  body {
+    color: white;
+    background-image: url(../img/bg-vert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-size: 12px;
+  }
+  a {
+    color: white;
+  }
+  a:visited {
+    color: black;
+  }
+  img {
+    width: 144px;
+  }
+  video {
+    width: 144px;
+  }
 }
