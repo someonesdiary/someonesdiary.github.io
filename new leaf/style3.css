@@ -1,12 +1,12 @@
 body {
     scroll-behavior: smooth;
-    background-image: url(../img/bg-hor.jpg); /* add after filling the screen linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)), */
+    background-image: linear-gradient( rgba(-1, 0, 0, 0.6), rgba(0, 0, 0, 0.60)), url(../img/bg-hor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: white;
 }
 a {
-    color:black;
+    color: white;
     text-decoration: none;
 }
 a:hover {
