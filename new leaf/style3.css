@@ -3,7 +3,8 @@ body {
     background-image: linear-gradient( rgba(-1, 0, 0, 0.6), rgba(0, 0, 0, 0.60)), url(../img/bg-hor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 a {
     color: white;
@@ -13,7 +14,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: black;
+    color: white;
 }
 footer {
     text-align: center;
@@ -50,7 +51,7 @@ footer {
     color: white;
   }
   a:visited {
-    color: black;
+    color: white;
   }
   img {
     width: 144px;
