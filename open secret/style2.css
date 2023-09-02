@@ -23,12 +23,12 @@ a:visited {
 img {
   float: inherit;
   height: auto;
-  width: 240px;
+  max-width: 240px;
 }
 video {
   float: inherit;
   height: auto;
-  width: 200px;
+  max-width: 200px;
 }
 footer {
   background-color: #28282888;
@@ -58,9 +58,9 @@ footer {
       font-size: 12px;
     }
     img {
-      width: 144px;
+      max-width: 144px;
     }
     video {
-      width: 144px;
+      max-width: 144px;
     }
   }

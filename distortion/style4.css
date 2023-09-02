@@ -3,13 +3,21 @@ html {
 }
 body {
     margin: 0;
-    padding: 5px;   
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60)), url(../img/bg-hor.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: black;
+    background: linear-gradient(-45deg, black, white);
+    background-size: 400% 400%;
+	  height: 100vh;
+    animation: distort 15s ease infinite;
     color: white;
+}
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60));
+}
+/* animation */
+@keyframes distort {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 a {
     color: white;
@@ -47,10 +55,6 @@ footer {
 @media only screen and (max-width: 920px) {
   body {
     color: white;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.102), rgba(0, 0, 0, 0.1)), url(../img/bg-vert.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
     font-size: 12px;
   }
   a {
@@ -60,9 +64,9 @@ footer {
     color: white;
   }
   img {
-    max-width: 144px;
+    width: 144px;
   }
   video {
-    max-width: 144px;
+    width: 144px;
   }
 }
