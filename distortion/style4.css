@@ -3,15 +3,16 @@ html {
 }
 body {
     margin: 0;
+    padding: 0;
     background: linear-gradient(-45deg, black, white);
     background-size: 400% 400%;
 	  height: 100vh;
-    animation: distort 15s ease infinite;
+    animation: distort 10s ease infinite;
     color: white;
 }
 .main {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.60));
+  padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 /* animation */
 @keyframes distort {
